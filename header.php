@@ -51,7 +51,7 @@ $about_text="$rs[about_text]";
     $follow_text = "$r[follow_text]";
 ?>
     <!-- Title  -->
-    <title>Vogue - <?php print $site_title ?></title>
+    <title>Udesha Technolog Pvt. Ltd.<?php print $site_title ?></title>
 
     <!-- Favicon  -->
     <link rel="icon" href="assets/img/favicon.png">
