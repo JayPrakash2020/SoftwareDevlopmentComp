@@ -79,7 +79,7 @@ $errormsg= "
 <head>
 
   <meta charset="utf-8" />
-  <title>Sign In | Diamond</title>
+  <title>Sign In | UTW</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
   <meta content="Themesbrand" name="author" />
@@ -121,7 +121,7 @@ $errormsg= "
 $r = mysqli_fetch_row($rr);
 $ufile = $r[0];
 ?>
-                        <a href="index.html" class="d-block">
+                        <a href="index.php" class="d-block">
                           <img src="uploads/logo/<?php print $ufile;?>" alt="" height="18">
                         </a>
                       </div>
