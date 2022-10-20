@@ -1,11 +1,11 @@
 <?php
-$con = new mysqli("localhost", "root", "", "vogue");
+$con = new mysqli("localhost", "root", "", "UTWLTD");
 if ($con->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
 //Your Website URL Goes Here
-$url="http://localhost/vogue";
+$url="http://localhost/SoftwareDevlopmentComp";
 
 
 //Set Blog Activation Bonus Here (It must be only Number)
